@@ -295,11 +295,16 @@
         <hr class="bg-light">
         <div class="container-fluid">
             <div class="row text-center">
-                <div class="col-lg-6 col-md-12 col-sm-12 text-center text-light">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center text-light">
                     <p>Made With MR Developer Eldeeb<span> <i class="fas fa-mug-hot"></i> </span></p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <audio src="./meadia/أصيل هميم - سر الحياة _ 2019 _ Aseel Hameem - Ser Alhayah.mp3" controls></audio>
+                <!-- add audio for fun  -->
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <audio id="my-audio"   style="width: 100%;">
+                        <source src="./meadia/أصيل هميم - سر الحياة _ 2019 _ Aseel Hameem - Ser Alhayah.mp3">
+                    </audio>
+                    <a id="play" href="#"><i class="fas fa-play fa-3x ms-2"></i></a>
+                    <a id="pause" href="#"><i class="fas fa-pause fa-3x mx-2"></i></a>
                 </div>
             </div>
         </div>
