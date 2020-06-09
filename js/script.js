@@ -12,10 +12,10 @@ window.onload =  () =>{
     var play = document.getElementById('play');
     var pause = document.getElementById('pause');
     
-    {
-        myAudio.play();
+    // {
+    //     myAudio.play();
 
-    }    
+    // }    
     play.onclick = () => {
         myAudio.play();
         return false;
@@ -26,3 +26,16 @@ window.onload =  () =>{
         return false;
     }
 }
+
+//scroll to top functionality
+
+var toTop = document.querySelector('.gotop-btn');
+
+// When the user scrolls down 100px from the top of the document, show the button
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 100) {
+        toTop.classList.add("active");
+    } else {
+        toTop.classList.remove("active");
+    }
+})

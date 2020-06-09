@@ -1,3 +1,9 @@
+
+*{
+    padding:0 ;
+    margin: 0;
+    scroll-behavior: smooth;
+}
 .search-box {
     position: relative;
     top:auto;
@@ -30,4 +36,31 @@ color: whitesmoke;
     width: 0px;
     transition: .5s;
     float: left;
+}
+.gotop-btn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.gotop-btn.active{
+    bottom: 40px;
+    pointer-events: auto;
+    opacity: 1;
+}
+.gotop-btn:hover{
+     background: #0dffc3;
+     color: red;
 }
