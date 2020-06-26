@@ -33,7 +33,7 @@ var toTop = document.querySelector('.gotop-btn');
 
 // When the user scrolls down 100px from the top of the document, show the button
 window.addEventListener("scroll", () => {
-    if (window.pageYOffset > 500) {
+    if (window.pageYOffset > 600) {
         toTop.classList.add("active");
     } else {
         toTop.classList.remove("active");
