@@ -45,17 +45,17 @@
     height: 50px;
     background: #27ae60;
     bottom: 40px;
-    right: 50px;
+    right: 40px;
     text-align: center;
     text-decoration: none;
     line-height: 50px;
     color: white;
     font-size: 22px;
-    border-radius: 30px;
+    border-radius: 10px;
     justify-content: center;
     opacity: 0;
     pointer-events: none;
-    transition: all .4s;
+    transition: all .7s;
 }
 .gotop-btn.active{
     bottom: 40px;
@@ -65,5 +65,5 @@
 .gotop-btn:hover{
      background: #076a31;
      color:rgb(255, 255, 255);
-     border: 2px solid red;
+     border-bottom: 2px solid rgb(255, 0, 0);
 }
